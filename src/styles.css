@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 150px auto 180px;
+  overflow-x: scroll;
+}
+
+.sidebar {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+.round {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar li span {
+  margin-right: 12px;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+.trello-main-box {
+  overflow-x: auto;
+}
+/* Rest of the CSS code remains the same */
+.edit-section p {
+  color: white;
+  margin-bottom: 10px;
+}
+.edit-section {
+  background-color: black;
+  padding: 10px;
+}
+.edit-section p {
+  font-weight: bold;
+}
+.edit-section input {
+  margin-bottom: 10px;
+  width: 160px;
+  height: 30px;
+}
+.edit-section input,
+textarea {
+  background-color: grey;
+  border: none;
+  border-radius: 10px;
+}
+.edit-sectin texarea {
+  width: 160px;
+}
+.edit-section button {
+  width: 160px;
+  height: 20px;
+}
+
+.board {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.item {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h3 {
+  margin: 0 0 10px;
+}
+
+.trello-main-box {
+  display: flex;
+}
+.trello-add-btn {
+  height: 50px;
+  width: 200px;
+}
